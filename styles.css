@@ -1,0 +1,226 @@
+/* STARTER CODE -- DO NOT DELETE */
+
+/* fonts */
+
+/*
+font-family: 'Twinkle Star', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+*/
+
+
+/*	============================================== */
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+	background-color: rgb(248, 173, 173);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.25rem;
+	font-weight: 200;
+	
+}
+nav ul li a:hover {
+	background-color: rgba(255, 254, 254, 0.4);
+	color: red
+
+
+}
+
+nav ul li a {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+	
+}
+
+/*	============================================== */
+
+h1 {
+	text-align: center;
+	font-size: 10rem;
+	font-family: 'Pacifico', cursive;
+	color: #cf1d1d;
+	padding: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+
+}
+
+/*	============================================== */
+
+.hello {
+	border-image-outset: 50px;
+	width: 100%;
+	padding: opx;
+}
+
+.page-section--stats {
+	background-color: #b86565;
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+	padding-top: 10px;
+    padding-left: 250px;
+    padding-right: 300px;
+    padding-bottom: 30px;
+	line-height: 1.75;
+	width: 100%;
+	color: rgb(255, 254, 254);
+
+}
+
+.giphy-embed {
+	width: 100%
+
+}
+
+
+{
+	
+
+}
+
+
+.page-section--history{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.25rem;
+	text-align: justify;
+	padding-top: 0px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 30px;
+	line-height: 1.75rem;
+	color: #cf1d1d;
+
+	
+}
+.lead-in {
+	padding-left: 30px;
+    padding-right: 30px;
+	
+}
+* {
+	box-sizing: border-box;
+}
+
+.swatch-list {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	margin: 0 -.5rem;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	color: white
+	padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.swatch-item {
+	width: calc(20% - 1rem);
+	padding: .5rem;
+	margin: .5rem;
+	background: white;
+	border: 2px solid red;
+	box-shadow: #cf1d1d;
+
+}
+
+.swatch-sample--one {
+	background-color: #E17681;
+}
+.swatch-sample--two {
+	background-color: rgb(193, 31, 31);
+}
+.swatch-sample--three {
+	background-color: grey;
+}
+.swatch-sample--four {
+	background-color: rgb(106, 69, 106);
+}
+.swatch-sample {
+	height: 100px;
+	width: 100%;
+	border: 2px solid;
+	padding-left: 30px;
+
+}
+
+.swatch-hex {
+	padding: .5rem 0 0;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color: red
+
+}
+
+
+.page-section--powers {
+	background-image: url('../images/hellokitty-wallpaper.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	padding-top: 20px;
+    padding-left: 250px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+	contain: 720px;
+	color:#c02929;
+	
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	color:rgb(106, 69, 106);
+	font-size: 2.5rem;
+	text-align:left;
+	padding-left: 0px
+}
+
+.swatch-sample-swatch-sample--one {
+	color: #b86565;
+	
+}
+
+.quote {
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	width: 100%;
+    padding-left: 0px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+	padding-top: 20px;
+	font-size: 1.5rem;
+	color: #de1212;
+	background-image: url('../images/hk\ garden.png');
+	margin: 0px;
+	
+	
+
+	
+
+}
+
+figcaption {
+	text-align: center;
+	color: #c02929;
+	width: 100%;
+}
+
+#colors {	
+	padding-top: 20px;
+    padding-left: 250px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
